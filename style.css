@@ -1,0 +1,140 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  body {
+    background: url('img.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  /* Container */
+  .weather-container {
+    text-align: center;
+    width: 100%;
+    max-width: 360px;
+    margin: auto;
+  }
+  
+  /* Lighter Dark-Themed Search Bar */
+  #city-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.65); /* Slightly lighter dark background */
+    border-radius: 25px;
+    padding: 8px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  #city-input {
+    flex: 1;
+    padding: 12px 18px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(50, 50, 50, 0.8); /* Lighter dark inside color */
+    color: #fff;  /* White text */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #city-input::placeholder {
+    color: #ccc;  /* Light gray placeholder for contrast */
+  }
+  
+  #city-input:focus {
+    background-color: rgba(50, 50, 50, 1);
+    transform: scale(1.02);
+  }
+  
+  #city-form button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    background: #00bfff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #city-form button:hover {
+    background: #008c99;
+    transform: scale(1.05);
+  }
+  
+  /* Weather Data Card */
+  .weather-card {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 30px 20px;
+  }
+  
+  .location-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .temp {
+    font-size: 56px;
+    margin: 10px 0;
+  }
+  
+  .details {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .weather-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .box {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 12px;
+  }
+  
+  .box span {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .desc {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .dot {
+    font-size: 32px;
+    opacity: 0.7;
+    margin-top: 20px;
+  }
+/* Override autofill background for WebKit browsers */
+#city-input:-webkit-autofill,
+#city-input:-webkit-autofill:hover,
+#city-input:-webkit-autofill:focus,
+#city-input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px rgba(50, 50, 50, 0.8) inset !important;
+  -webkit-text-fill-color: #fff !important;
+}
+  

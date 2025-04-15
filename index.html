@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Widget</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-container">
+    <!-- Search Form -->
+    <form id="city-form">
+      <input type="text" id="city-input" placeholder="Enter city name..." required />
+      <button type="submit">Search</button>
+    </form>
+
+
+    <div class="weather-card" id="weather-card">
+      <div class="location-info">
+        <h2 id="city-name">City</h2>
+        <div class="temp" id="temp">--°C</div>
+        <div class="details" id="details">Feels like: --° <span>--:--</span></div>
+      </div>
+      <div class="weather-stats">
+        <div class="box">🌬️ Wind<br><span id="wind">-- km/h</span></div>
+        <div class="box">💧 Humidity<br><span id="humidity">--%</span></div>
+        <div class="box">🔆 UV Index<br><span id="uv">--</span></div>
+        <div class="box">🌧️ Rain<br><span id="rain">--%</span></div>
+      </div>
+      <p class="desc" id="description">
+        Weather condition: --
+      </p>
+    </div>
+      </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
