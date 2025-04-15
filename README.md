@@ -57,7 +57,7 @@ The background image used for the application.
 
 ## Screenshots
 
-![Weather Widget Screenshot](img.jpg)
+![Weather Widget Screenshot](website.jpg)
 
 ## License
 
