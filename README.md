@@ -21,7 +21,7 @@ A simple and responsive weather widget web application that allows users to sear
 ## 📂 Project Structure
 
 📦 Weather Widget
-├── index.html
+├── index.html<br>
 ├── style.css
 ├── script.js        
 ├── image/
