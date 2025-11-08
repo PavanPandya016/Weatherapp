@@ -20,15 +20,15 @@ A simple and responsive weather widget web application that allows users to sear
 
 ## 📂 Project Structure
 
-📦 Weather Widget
+📦 Weather Widget<br>
 ├── index.html<br>
-├── style.css
-├── script.js        
-├── image/
-│   ├── img.jpg
-│   ├── favicon.ico
-│   └── website_img.png
-└── README.md
+├── style.css<br>
+├── script.js<br>
+├── image/<br>
+│   ├── img.jpg<br>
+│   ├── favicon.ico<br>
+│   └── website_img.png<br>
+└── README.md<br>
 
 ---
 
