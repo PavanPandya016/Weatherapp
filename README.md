@@ -21,14 +21,14 @@ A simple and responsive weather widget web application that allows users to sear
 ## 📂 Project Structure
 
 📦 Weather Widget
-├── index.html       # 🌐 Main HTML structure of the weather app
-├── style.css        # 🎨 Styling for layout, fonts, colors, and responsiveness
-├── script.js        # ⚙️ JavaScript logic: fetches and updates weather data using WeatherAPI
+├── index.html
+├── style.css
+├── script.js        
 ├── image/
-│   ├── img.jpg      # 🖼️ Background image used in the app
-│   ├── favicon.ico  # 🔖 Favicon for the app
-│   └── website_img.png  # 📸 Screenshot of the weather widget
-└── README.md        # 📘 Project overview, setup instructions, and licensing
+│   ├── img.jpg
+│   ├── favicon.ico
+│   └── website_img.png
+└── README.md
 
 ---
 
